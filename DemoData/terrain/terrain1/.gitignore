@@ -1,0 +1,16 @@
+*.tga
+T1.bmp
+T2.bmp
+T3.bmp
+T4.bmp
+T5.bmp
+T6.bmp
+T7.bmp
+heightmap256.txt
+heightmap256Type2.txt
+heightmap512.txt
+heightmap512Type2.txt
+heightmap1024.txt
+heightmap1024Type2.txt
+*.dds
+preview.pvr

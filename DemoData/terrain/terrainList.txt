@@ -1,0 +1,49 @@
+terrains	5
+	terrain1
+		load method	3
+		tree scale		0.05
+		camera velocity	1.5
+		heightmaps	3
+			257x257	heightmap256Type3.txt 
+			513x513	heightmap512Type3.txt
+			1025x1025	heightmap1024Type3.txt
+		textures		7	simpleTexture	4
+			T1.pvr T2.pvr T3.pvr T4.pvr T5.pvr T6.pvr T7.pvr
+	terrain2
+		load method	2
+		tree scale		0.1
+		camera velocity	3
+		heightmaps	3
+			513x513	heightmap512.txt
+			1025x1025	heightmap1024.txt
+			2049x2049	heightmap2048.txt
+		textures		7	simpleTexture	4
+			128.pvr 256.pvr 512.pvr 1024.pvr 2048.pvr 4096.pvr 8192.pvr
+	terrain3
+		load method	2
+		tree scale		0.1
+		camera velocity	3
+		heightmaps	3
+			257x257	heightmap256.txt
+			513x513	heightmap512.txt
+			1025x1025	heightmap1024.txt
+		textures		6	simpleTexture	4
+			128.pvr 256.pvr 512.pvr 1024.pvr 2048.pvr 4096.pvr
+	terrain4
+		load method	2
+		tree scale		0.1
+		camera velocity	3
+		heightmaps	3
+			513x513	heightmap512.txt
+			1025x1025	heightmap1024.txt
+			2049x2049	heightmap2048.txt
+		textures		6	simpleTexture	4
+			128.pvr 256.pvr 512.pvr 1024.pvr 2048.pvr 4096.pvr
+	terrain5
+		load method	2
+		tree scale		0.1
+		camera velocity	3
+		heightmaps	1
+			2049x2049	heightmap2048.txt
+		textures		6	simpleTexture	1
+			T.pvr T.pvr T.pvr T.pvr T.pvr T.pvr
