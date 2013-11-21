@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Camera" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQCGAAAAaAIIEAAAAAAIAAAQCAAAEAAATQAAgAAoAg=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChunkQuadTreeTerrain" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAWEEEAGCEAQ4ghAAEEoAJXABABBAgoCEB4CwQAQBEE=</HashCode>
+      <FileName>ChunkQuadTreeTerrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gFQAAEBAAEJEwAIIpGEAAIACAAIOGAAAgBFAAAAAUAg=</HashCode>
+      <FileName>Menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mode2D" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAQAAAEAAAAAAAAAACAAA=</HashCode>
+      <FileName>Mode2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAABEACAAAAABFAAAAQAAAgAACAAAAAABgAAAAAAAA=</HashCode>
+      <FileName>Model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NonAnimObject" Collapsed="true">
+    <Position X="1.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAAACAAAAAAAAAAAAEAACEAAAAABAAgAAIAAA=</HashCode>
+      <FileName>NonAnimObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OctreeSceneManager" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACEAAAgAEAAAAQAAAAgBAAABIBAERCCAAgBAAA=</HashCode>
+      <FileName>OctreeSceneManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneObject" Collapsed="true">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAEAAAAAEAAAAACJAAAAACAAAAAABAAAAIAAAA=</HashCode>
+      <FileName>SceneObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SphereObject" Collapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAgQAAAAAAIAAAAAAAAAAAACAAAAQAAAAAAAA=</HashCode>
+      <FileName>SphereObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Terrain" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAACAAAAAABwUURAUABCQAAAECDAAlECIFIAAAA=</HashCode>
+      <FileName>Terrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleTerrain" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAVAAAAAAAAAAEAAAABAAAAQAgAAABQCAAAAAAA=</HashCode>
+      <FileName>Terrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleTerrainTriFan" Collapsed="true">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAgAEAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Terrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleTerrainTriStrip" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Terrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextWritter" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAAAAASAAAAAACwAAAAAAAJAAAAlAABBAAAgAAgAE=</HashCode>
+      <FileName>TextWritter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAEAAAAQAIAAACAAAAAgAAAgAAQgE=</HashCode>
+      <FileName>Timer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TreeObject" Collapsed="true">
+    <Position X="2.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>TreeObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="QuadTreeNode" Collapsed="true">
+    <Position X="13.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAgAIAACBBAAACAQAoAIACAAgAmAAAACAAAACA=</HashCode>
+      <FileName>ChunkQuadTreeTerrain.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MouseState" Collapsed="true">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>main.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="HeightMapInfo" Collapsed="true">
+    <Position X="11.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Menu.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TerrainInfo" Collapsed="true">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAEAACEAAQAAACAAAAAAABAgEAAQAAAAAQAIAAAA=</HashCode>
+      <FileName>Menu.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OctreeNode" Collapsed="true">
+    <Position X="11.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAACAAAAAAAAAgQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>OctreeSceneManager.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OctreeLevel" Collapsed="true">
+    <Position X="9.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAACACAAQAAEAAAAAAgAAAAAACCAAA=</HashCode>
+      <FileName>OctreeSceneManager.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Glyph" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQCQAAAAAAAAAAAAAAABAMwAAAAgAA=</HashCode>
+      <FileName>TextWritter.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="FontVertex" Collapsed="true">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAABJgAQAAAAA=</HashCode>
+      <FileName>TextWritter.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TextImpl" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQABAAAAAAAAAAAAAAAAAAAQQAAAAAAAAAAAAwAA=</HashCode>
+      <FileName>TextWritter.cpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VertexPos" Collapsed="true">
+    <Position X="8" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAQAAAAA=</HashCode>
+      <FileName>ChunkQuadTreeTerrain.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="VertexTexCoord" Collapsed="true">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIQAAAAAAAA=</HashCode>
+      <FileName>ChunkQuadTreeTerrain.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SelectedTerrainOption" Collapsed="true">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAACAAAAAAQBAEEAAAAACAEAAAAAAA=</HashCode>
+      <FileName>Menu.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Material" Collapsed="true">
+    <Position X="13.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAABCAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAABAAAA=</HashCode>
+      <FileName>Model.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Vertex" Collapsed="true">
+    <Position X="13.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIRgAQAAAAA=</HashCode>
+      <FileName>Terrain.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RelativePostionInfo" Collapsed="true">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQACAAAAAAAQAAAAAAAABAA=</HashCode>
+      <FileName>Terrain.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Text" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TextWritter.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="GLintptr" Collapsed="true">
+    <Position X="9.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glExtension.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLsizeiptr" Collapsed="true">
+    <Position X="11.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glExtension.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GLchar" Collapsed="true">
+    <Position X="8" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>glExtension.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
