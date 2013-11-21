@@ -10,18 +10,18 @@
 2. Demo's shortcut keys
 -------------------
 
-1 – Enable/disable Terrain's Quadtree renderer. The renderer is enabled by default.
-2 – Enable/disable Octree Scene Manager. The octree manager is enabled by default..
-C – Enable/disable wire-frame drawing.
-F – Increase terrain's level of detail error threshold.
-G – Decrease terrain's level of detail error threshold.
-R – Enable/disable terrain's crack filling. Enabled by default
-V – Enable/disable geo-morphing technique.
-Tab – Enable/disable bird-eye view.
-~ or ` – Enable/disable information display.
-W – Move camera forward.
-S – Move camera backward.
-A – Move camera left.
-D – Move camera right.
-Q – Increase camera's height.
-E – Decrease camera's height.
+– 1: Enable/disable Terrain's Quadtree renderer. The renderer is enabled by default.
+- 2: Enable/disable Octree Scene Manager. The octree manager is enabled by default..
+- C: Enable/disable wire-frame drawing.
+- F: Increase terrain's level of detail error threshold.
+- G: Decrease terrain's level of detail error threshold.
+- R: Enable/disable terrain's crack filling. Enabled by default
+- V: Enable/disable geo-morphing technique.
+- Tab: Enable/disable bird-eye view.
+- ~ or `: Enable/disable information display.
+- W: Move camera forward.
+- S: Move camera backward.
+- A: Move camera left.
+- D: Move camera right.
+- Q: Increase camera's height.
+- E: Decrease camera's height.
