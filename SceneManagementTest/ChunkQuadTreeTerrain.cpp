@@ -175,12 +175,16 @@ void ChunkQuadTreeTerrain::LoadTextures(const char * const * textureFiles)
 
 		if ((bitmap.Load(textureFiles[i])== IMG_OK))
 		{
+			if (bitmap.IsCompressed()){
+				bitmap.DeCompressDXT(true);
+			}
+			else
+				bitmap.FlipRGB();
 			if (i == 0)
 			{
 				this->edgeTexcoordOffset.s = 0.5f / bitmap.GetWidth();
 				this->edgeTexcoordOffset.t = 0.5f / bitmap.GetHeight();
 			}
-			bitmap.FlipRGB();
 			/*----------check if image can be splitted into equal size pieces--------*/
 			ChunkQuadTreeTerrain::CheckImageNeedScaling(bitmap , numTexturesPerRow);
 			/*----------split image into (numTexturesPerRow ^ 2) textures------------*/
@@ -214,7 +218,7 @@ void ChunkQuadTreeTerrain::SplitImageIntoTextures(GLuint * textures , const Bitm
 	unsigned int rowSize;//size of 1 row of texture's data
 	unsigned int blockSize ;//total size of 1 texture's data
 	unsigned int rowOfBlockSize ;
-	unsigned char *startPixel;
+	const unsigned char *startPixel;
 	/*-----calculate texture size-----------*/
 	textureWidth = bitmap.GetWidth() / numTexturesPerRow;
 	textureHeight = bitmap.GetHeight() / numTexturesPerRow;
@@ -223,6 +227,11 @@ void ChunkQuadTreeTerrain::SplitImageIntoTextures(GLuint * textures , const Bitm
 	blockSize = rowSize * textureHeight;
 	rowOfBlockSize = blockSize * numTexturesPerRow;
 
+	typedef void (*DefineTexture)(GLuint texture , const unsigned char *pData, 
+				   unsigned int width , unsigned int height ,unsigned int unpackRowLength , bool wrapMode);
+
+	DefineTexture pDefineTexture = bitmap.GetBits() == 32 ? &DefineTextureRGBA : &DefineTextureRGB;
+
 	for (unsigned int r  = 0 ; r < numTexturesPerRow ; ++r)
 	{
 		for (unsigned int c  = 0 ; c < numTexturesPerRow ; ++c)
@@ -230,11 +239,12 @@ void ChunkQuadTreeTerrain::SplitImageIntoTextures(GLuint * textures , const Bitm
 			startPixel = bitmap.GetPixelData() + 
 				r * rowOfBlockSize + c * rowSize;
 
-			DefineTextureRGB(textures[textureIndex ++] , 
+			pDefineTexture(textures[textureIndex ++] , 
 				startPixel , 
 				textureWidth,
 				textureHeight,
-				bitmap.GetWidth()
+				bitmap.GetWidth(),
+				false
 				);
 		}
 	}

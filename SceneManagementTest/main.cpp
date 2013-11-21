@@ -881,12 +881,12 @@ DWORD WINAPI InitGameThreadFunc(void *arg)
 	
 	//sky
 	sky = new SkyDome(ZFAR , 50 , 50 , 
-		"../DemoData/sky/waterPosX.bmp" ,
-		"../DemoData/sky/waterNegX.bmp" ,
-		"../DemoData/sky/waterPosY.bmp" ,
-		"../DemoData/sky/waterNegY.bmp" ,
-		"../DemoData/sky/waterPosZ.bmp" ,
-		"../DemoData/sky/waterNegZ.bmp" );
+		"../DemoData/sky/waterPosX.pvr" ,
+		"../DemoData/sky/waterNegX.pvr" ,
+		"../DemoData/sky/waterPosY.pvr" ,
+		"../DemoData/sky/waterNegY.pvr" ,
+		"../DemoData/sky/waterPosZ.pvr" ,
+		"../DemoData/sky/waterNegZ.pvr" );
 
 	//done
 

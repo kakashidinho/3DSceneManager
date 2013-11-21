@@ -78,6 +78,8 @@ protected:
 	bool LoadHeightMap(const char *fileName  , int loadMethod);
 	bool LoadHeightMapFromTxt(const char *fileName); 
 	bool LoadHeightMapFromBmp(const char *fileName);
+	bool LoadHeightMapFromFloatBmp(const char *fileName);
+	void dumpHeightToBmp(const char *fileName)const;
 	/*-------these 3  implement dependent worker methods will be called in LoadHeightMap() method------------*/
 	virtual void Init() = 0;//init stuffs when number of vertices in x and z direction are known and just before height is assigned to each point in terrain grid
 	virtual void InitData(unsigned int row, unsigned int col, float height) = 0;//set height to point at location <row> , <col>.<row> is index in z direction , <col> is index in x direction of terrain grid.

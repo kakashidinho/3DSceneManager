@@ -53,8 +53,10 @@ GLuint LoadTexture(const char *fileName , ImgOrigin imageOrigin, bool wrapMode)
 	if (bitmap.Load(fileName) != IMG_OK)
 		return 0;
 	bitmap.SetPixelOrigin(imageOrigin);
-	bitmap.DeCompressDXT();
-	bitmap.FlipRGB();
+	if (bitmap.IsCompressed())
+		bitmap.DeCompressDXT(true);
+	else
+		bitmap.FlipRGB();
 
 	GLuint texture;
 	glGenTextures(1,&texture);     
@@ -69,6 +71,11 @@ GLuint LoadTexture(const char *fileName , ImgOrigin imageOrigin, bool wrapMode)
  void DefineTextureRGB(GLuint texture , const unsigned char *pData, unsigned int width , unsigned int height , unsigned int unpackRowLength, bool wrapMode)
  { 
 	 return DefineTexture(texture , pData , width , height , unpackRowLength , GL_RGB , wrapMode);
+ }
+
+ void DefineTextureRGBA(GLuint texture , const unsigned char *pData, unsigned int width , unsigned int height , unsigned int unpackRowLength, bool wrapMode)
+ { 
+	 return DefineTexture(texture , pData , width , height , unpackRowLength , GL_RGBA , wrapMode);
  }
 
  void DefineTexture(GLuint texture , const unsigned char *pData, unsigned int width , unsigned int height , unsigned int unpackRowLength , GLenum format , bool wrapMode)

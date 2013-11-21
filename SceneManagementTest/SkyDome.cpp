@@ -80,8 +80,11 @@ void SkyDome::LoadTexture(const char * images[6])
 	for (int i = 0 ; i < 6 ; ++i)
 	{
 		bitmap.Load(images[i]);
+		if (bitmap.IsCompressed())
+			bitmap.DeCompressDXT(true);
+		else
+			bitmap.FlipRGB();
 		bitmap.SetPixelOrigin(ORIGIN_TOP_LEFT);
-		bitmap.FlipRGB();
 		
 		if (bitmap.GetBits() == 24)
 			glTexImage2D(target[i] , 0 , GL_RGB8 , bitmap.GetWidth() , bitmap.GetHeight() , 
