@@ -9,8 +9,7 @@
 
 2. Demo's shortcut keys
 -------------------
-
-– 1: Enable/disable Terrain's Quadtree renderer. The renderer is enabled by default.
+- 1: Enable/disable Terrain's Quadtree renderer. The renderer is enabled by default.
 - 2: Enable/disable Octree Scene Manager. The octree manager is enabled by default..
 - C: Enable/disable wire-frame drawing.
 - F: Increase terrain's level of detail error threshold.
