@@ -1,0 +1,1 @@
+0 0 12 12 2 heightmap256.bmp
