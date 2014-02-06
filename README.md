@@ -7,6 +7,8 @@
 
 - The project is implemented using Visual C++ 2008 & OpenGL (no shader).
 
+- The sample video is here: http://youtu.be/djqe-QKh6wQ
+
 2. Demo's shortcut keys
 -------------------
 - 1: Enable/disable Terrain's Quadtree renderer. The renderer is enabled by default.
