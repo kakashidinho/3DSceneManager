@@ -11,7 +11,7 @@
 #include "../Libraries/HQUtil/include/math/HQUtilMath.h"
 //model loader lib
 #include "../Libraries/Open Asset Import Library/include/assimp.h"
-#pragma comment(lib , "../Libraries/Open Asset Import Library/lib/x86/assimp.lib")
+#pragma comment(lib , "assimp.lib")
 
 struct Material
 {

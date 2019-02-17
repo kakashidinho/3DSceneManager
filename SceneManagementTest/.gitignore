@@ -1,3 +1,5 @@
 *.ncb
 Debug
+Debug.vs2017
 Release
+Release.vs2017

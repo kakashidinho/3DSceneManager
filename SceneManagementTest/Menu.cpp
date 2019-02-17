@@ -121,7 +121,7 @@ Menu::Menu(TextWritter *_textWritter ,
 		   const char *backgroundImage,
 		   const char *terrainInfoFile )
 : textWritter(_textWritter) , section(MAIN) , terrainInfos(NULL) , numTerrains(0) ,
-selectedTerrain(0) , selectedHeightMap(0) , selectedLevel(4) , selectedOctreeLevel(MAX_NUM_OCTREE_LEVELS) 
+selectedTerrain(0) , selectedHeightMap(0) , selectedLevel(6) , selectedOctreeLevel(MAX_NUM_OCTREE_LEVELS) 
 {
 
 	this->InitButtons(buttonOnImage , buttonOffImage);

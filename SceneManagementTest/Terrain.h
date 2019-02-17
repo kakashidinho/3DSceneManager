@@ -17,9 +17,9 @@
 #endif
 #include "../Libraries/HQUtil/include/math/HQUtilMath.h"
 #if defined DEBUG || defined _DEBUG
-#pragma comment(lib , "../Libraries/HQUtil/lib/HQUtilMathD.lib")
+#pragma comment(lib , "HQUtilMathD.lib")
 #else
-#pragma comment(lib , "../Libraries/HQUtil/lib/HQUtilMath.lib")
+#pragma comment(lib , "HQUtilMath.lib")
 #endif
 
 

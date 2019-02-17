@@ -6,9 +6,9 @@
 //image loader lib
 #include "../Libraries/ImagesLoader/include/Bitmap.h"
 #if defined DEBUG || defined _DEBUG
-#pragma comment(lib,"../Libraries/ImagesLoader/lib/ImagesLoaderD.lib")
+#pragma comment(lib,"ImagesLoaderD.lib")
 #else
-#pragma comment(lib,"../Libraries/ImagesLoader/lib/ImagesLoader.lib")
+#pragma comment(lib,"ImagesLoader.lib")
 #endif
 
 /*------------------------------------------*/
