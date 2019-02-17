@@ -219,6 +219,16 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 #endif
 
+	/*---- get .exe folder, and make it current directory ----*/
+	wchar_t exePath[MAX_PATH + 1];
+	DWORD exePathSize = GetModuleFileName(NULL, exePath, sizeof(exePath));
+	size_t exeParentDirectySize = FindLastPathSeperator(exePath, exePathSize);
+
+	if (exeParentDirectySize < exePathSize) {
+		exePath[exeParentDirectySize] = 0;
+		SetCurrentDirectory(exePath);
+	}
+
 	/*------------------------*/
 	
 	if (!MyInit())
@@ -756,8 +766,8 @@ DWORD WINAPI InitGameThreadFunc(void *arg)
 	DWORD size = GetCurrentDirectory(0 , 0);
 	wchar_t *currentDir = new wchar_t[size];
 	GetCurrentDirectory(size , currentDir);
-
 	
+	// set current directory to point to resources directory
 	SetCurrentDirectoryA("../DemoData/terrain");
 	SetCurrentDirectoryA(option.name);
 
