@@ -8,6 +8,7 @@
 - The project is implemented using Visual C++ 2008 & OpenGL (no shader).
 
 - The sample video is here: http://youtu.be/djqe-QKh6wQ
+- The prebuilt demo application can be found in Releases section of Github page.
 
 2. Demo's shortcut keys
 -------------------
