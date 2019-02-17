@@ -694,7 +694,7 @@ void InitGame()
 	disableMouse = false;//mouse input disabled?
 	cull = true;//backface culling enabled?
 	zbuffer = true;//depth test enabled?
-	birdEye = false;//display bird eye radar map?
+	birdEye = true;//display bird eye radar map?
 	drawTerrainSkirt = true;//display terrain skirt?
 	geoMorpth = true;//geomorphing enabled?
 	autoRotate = false;//auto rotate around Oy
